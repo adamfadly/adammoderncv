@@ -4,4 +4,4 @@
 
 _running node SASS on command line_
 
-##### npm run node sass
+##### npm run sass
