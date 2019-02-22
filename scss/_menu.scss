@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #f9f9f9ff;
     @include easeOut;
   }
 
@@ -29,7 +29,7 @@
         opacity: 0;
       }
       // Line 3 Rotate
-      &:nth-child(1) {
+      &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
       }
     }
