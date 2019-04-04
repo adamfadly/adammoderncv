@@ -41,7 +41,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden;
 
   &.show {
@@ -87,9 +87,9 @@
   }
 
   .potrait{
-    width: 190px;
-    height: 240px;
-    background: url('/dist/img/Mocha.png');
+    width: 250px;
+    height: 250px;
+    background: url('/dist/img/portfolio_pp.jpg');
     border-radius: 50%;
     border : solid 3px $secondary-color;
     background-repeat: no-repeat;

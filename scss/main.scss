@@ -82,8 +82,8 @@ main {
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
-    height: 160px;
-    width: 150px;
+    height: 210px;
+    width: 210px;
     border-radius: 50%;
     border: 3px solid $secondary-color;
     grid-area: bio-image;
@@ -114,6 +114,46 @@ main {
     border-radius: 4px;
   }
 }
+
+// work & Projects
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.7rem;
+
+
+
+  img {
+    width: 400px;
+    border: #fff 3px solid;
+
+    &:hover {
+      width:600px;
+      border-color: $secondary-color;
+      opacity: 0.5;
+      @include easeOut;
+    }
+  }
+}
+
+
+
+// Contact
+
+.contact-person {
+  margin-top: 35px;
+  display: flex !important;
+  flex-direction: column !important;
+  font-size: 16px;
+  line-height: 10px;
+
+  .contact-detail {
+    flex-direction: column;
+  }
+}
+
+
+
 
 #main-footer {
  text-align: center;
