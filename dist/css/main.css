@@ -179,6 +179,9 @@ main {
     border-bottom: 5px solid #eece1a;
     padding: 0.5rem;
     border-radius: 4px; }
+  .about-info .logo-job {
+    width: 60px;
+    height: 60px; }
 
 .projects {
   display: grid;
@@ -231,9 +234,9 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .potrait {
-      background: url("/dist/img/portfolio_pp.jpg");
+      background: url("/dist/img/Mocha.png");
       background-size: cover;
-      width: 170px;
+      width: 150px;
       height: 170px; }
   .about-info {
     grid-template-areas: 'bio-image' 'bio' 'bio' 'job1' 'job2' 'job3';
